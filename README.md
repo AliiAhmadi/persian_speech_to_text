@@ -26,18 +26,10 @@ This project focuses on fine-tuning the [Whisper](https://github.com/openai/whis
 
 ```bash
 git clone https://github.com/AliiAhmadi/speech_to_text.git
-cd whisper-finetuning
+cd speech_to_text/
 ```
 
-### Step 2: Install dependencies
-
-It is recommended to use a virtual environment. Install the required dependencies using `pip`:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Setup Weights & Biases (optional)
+### Step 2: Setup Weights & Biases (optional)
 
 For experiment tracking, create a W&B account and set up the API key:
 
@@ -82,12 +74,11 @@ After training, use the fine-tuned model to make predictions on new audio data, 
 ## Project Structure
 
 ```
-whisper-finetuning/
+speech_to_text/
 ├── data/                    # Dataset (audio and transcriptions)
 ├── logs/                    # Logs for experiment tracking (via Weights & Biases)
 ├── model/                   # Fine-tuned model checkpoints
 ├── whisper_finetuning.ipynb  # Jupyter notebook for training and evaluation
-├── requirements.txt         # Project dependencies
 ├── README.md                # Project documentation
 └── ...                      # Other helper files and scripts
 ```
