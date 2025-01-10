@@ -25,7 +25,7 @@ This project focuses on fine-tuning the [Whisper](https://github.com/openai/whis
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/your_username/whisper-finetuning.git
+git clone https://github.com/AliiAhmadi/speech_to_text.git
 cd whisper-finetuning
 ```
 
