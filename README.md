@@ -1,15 +1,15 @@
-# 🎙️ Fine-Tuning OpenAI Whisper for Persian Speech Recognition
+# Fine-Tuning OpenAI Whisper for Persian Speech Recognition
 
 A complete and practical guide for **fine-tuning OpenAI's Whisper model** on **Persian language datasets** to achieve **high-accuracy automatic speech recognition (ASR)** for Farsi audio.
 
 
-## 📌 Project Overview
+## Project Overview
 
 This repository provides a clear, reproducible pipeline for **fine-tuning Whisper** — OpenAI's powerful speech-to-text model — using **Persian speech datasets**.  
 The goal is to enhance Whisper’s performance specifically for **Farsi transcriptions** by training it on native Persian audio and text.
 
 
-## 🚀 Key Features
+## Key Features
 
 - Fine-tunes Whisper on **Persian speech** for improved ASR results  
 - Step-by-step code using **Hugging Face Transformers**  
@@ -18,7 +18,7 @@ The goal is to enhance Whisper’s performance specifically for **Farsi transcri
 - Designed for easy customization and GPU-accelerated training  
 
 
-## 💡 Why Fine-Tune Whisper for Persian?
+## Why Fine-Tune Whisper for Persian?
 
 Although OpenAI's Whisper supports multiple languages, fine-tuning it on **Persian-specific datasets** can drastically improve transcription quality.  
 This is especially useful for:
@@ -27,7 +27,7 @@ This is especially useful for:
 - Academic and commercial speech AI research  
 
 
-## 🧑‍💻 Requirements
+## Requirements
 
 - Python 3.8+
 - PyTorch with GPU support
