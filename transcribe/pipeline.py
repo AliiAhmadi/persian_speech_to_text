@@ -2,7 +2,7 @@ from transformers import pipeline
 
 pipe = pipeline(
     "automatic-speech-recognition",
-    model="steja/whisper-large-persian",
+    model="AliiAhmadi/whisper-fa",
     device="cuda"
 )
 
