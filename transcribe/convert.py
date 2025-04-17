@@ -61,8 +61,8 @@ def merge_transcripts_fuzzy(texts, window=15, threshold=85):
     return merged.strip()
 
 if __name__ == "__main__":
-    processor = WhisperProcessor.from_pretrained("steja/whisper-large-persian")
-    model = WhisperForConditionalGeneration.from_pretrained("steja/whisper-large-persian").to("cuda")
+    processor = WhisperProcessor.from_pretrained("AliiAhmadi/whisper-fa")
+    model = WhisperForConditionalGeneration.from_pretrained("AliiAhmadi/whisper-fa").to("cuda")
 
 
     # Your audio file:
